@@ -1,0 +1,79 @@
+.numbers,.operations{
+  font-size: 24px;
+  color:white;
+  border: 1px solid black;
+  height: 7vh;
+  width: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0vw;
+  background-color:rgb(60,60,106);
+}
+
+
+.keynums {
+  margin-top:300px;
+  margin-left:400px;
+  height: 0vh;
+  width: 0vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.oper{
+  margin-left:615px;
+}
+#equals{
+  margin-left:-151px;
+  margin-top: -120px;
+  width:116px;
+  font-size: 24px;
+  color:white;
+  border: 1px solid black;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+  background-color:rgb(60,60,106);
+}
+
+#clear{
+  margin-top: 3px;
+  margin-left: -215px;
+  font-size: 24px;
+  color:white;
+  border: 1px solid black;
+  height: 6.2vh;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+  background-color:rgb(60,60,106);
+}
+
+#display{
+  position: absolute;
+  margin-top:-70px;
+  margin-left: 400px;
+  font-size: 24px;
+  color:white;
+  border: 1px solid black;
+  height: 7vh;
+  width: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+  color:red;
+  background-color:black;
+}
+
+body{
+  background-color: rgb(225,128,62);
+  
+}
+
